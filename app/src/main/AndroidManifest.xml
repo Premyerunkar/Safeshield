@@ -21,8 +21,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Wsafety">
-        <activity android:name="com.sierratechnologies.safeshield.RegisterNumberActivity"></activity>
-        <activity android:name="com.sierratechnologies.safeshield.SplashScreen">
+        <activity android:name="com.sierratechnologies.safeshield.RegisterNumberActivity" >
+
+        </activity>
+        <activity android:name="com.sierratechnologies.safeshield.SplashScreen" android:theme="@style/SplashTheme" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

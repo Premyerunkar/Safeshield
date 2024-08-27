@@ -21,4 +21,9 @@
 
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item> <!-- This makes the status bar icons dark -->
+        <item name="android:statusBarColor">@android:color/white</item> <!-- This sets the status bar color to white -->
+    </style>
 </resources>
